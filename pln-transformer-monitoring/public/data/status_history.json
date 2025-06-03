@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "transformer_id": 1,
+    "previous_status": "pending",
+    "new_status": "normal",
+    "changed_by": 2,
+    "change_reason": "Instalasi selesai dan testing berhasil",
+    "changed_at": "2022-03-15T10:30:00.000Z"
+  },
+  {
+    "id": 2,
+    "transformer_id": 2,
+    "previous_status": "normal",
+    "new_status": "maintenance",
+    "changed_by": 3,
+    "change_reason": "Maintenance rutin terjadwal",
+    "changed_at": "2024-06-03T08:00:00.000Z"
+  },
+  {
+    "id": 3,
+    "transformer_id": 3,
+    "previous_status": "normal",
+    "new_status": "emergency",
+    "changed_by": 2,
+    "change_reason": "Suhu tinggi terdeteksi, beban berlebih",
+    "changed_at": "2024-06-03T13:45:00.000Z"
+  },
+  {
+    "id": 4,
+    "transformer_id": 4,
+    "previous_status": "in_progress",
+    "new_status": "testing",
+    "changed_by": 5,
+    "change_reason": "Perbaikan selesai, sedang dalam tahap testing",
+    "changed_at": "2024-06-03T12:00:00.000Z"
+  },
+  {
+    "id": 5,
+    "transformer_id": 5,
+    "previous_status": "maintenance",
+    "new_status": "normal",
+    "changed_by": 3,
+    "change_reason": "Maintenance selesai, sistem normal",
+    "changed_at": "2024-03-15T16:00:00.000Z"
+  },
+  {
+    "id": 6,
+    "transformer_id": 6,
+    "previous_status": "emergency",
+    "new_status": "offline",
+    "changed_by": 2,
+    "change_reason": "Kerusakan parah, perlu shutdown untuk perbaikan",
+    "changed_at": "2024-06-03T09:15:00.000Z"
+  },
+  {
+    "id": 7,
+    "transformer_id": 7,
+    "previous_status": "testing",
+    "new_status": "in_progress",
+    "changed_by": 5,
+    "change_reason": "Testing ditemukan masalah minor, dilanjutkan perbaikan",
+    "changed_at": "2024-06-03T11:30:00.000Z"
+  },
+  {
+    "id": 8,
+    "transformer_id": 8,
+    "previous_status": "maintenance",
+    "new_status": "completed",
+    "changed_by": 3,
+    "change_reason": "Maintenance dan testing selesai dengan sukses",
+    "changed_at": "2024-06-03T14:45:00.000Z"
+  },
+  {
+    "id": 9,
+    "transformer_id": 9,
+    "previous_status": "normal",
+    "new_status": "pending",
+    "changed_by": 1,
+    "change_reason": "Dijadwalkan untuk inspection rutin",
+    "changed_at": "2024-06-03T11:30:00.000Z"
+  },
+  {
+    "id": 10,
+    "transformer_id": 10,
+    "previous_status": "testing",
+    "new_status": "normal",
+    "changed_by": 2,
+    "change_reason": "Testing selesai, transformer siap beroperasi",
+    "changed_at": "2024-06-03T13:20:00.000Z"
+  }
+]
